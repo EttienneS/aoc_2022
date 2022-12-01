@@ -1,5 +1,5 @@
 // https://adventofcode.com/2022/day/1
-use crate::input_parser::InputParser;
+use crate::helpers::input_parser::InputParser;
 
 pub fn part1() {
     let totals = get_ordered_totals();
