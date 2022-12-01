@@ -1,5 +1,5 @@
 // https://adventofcode.com/2022/day/1
-use std::fs;
+use crate::input_parser::InputParser;
 
 pub fn part1() {
     let totals = get_ordered_totals();
@@ -15,9 +15,8 @@ pub fn part2() {
 }
 
 fn get_ordered_totals() -> Vec<u32> {
-    let file_path = String::from("src/input/day1.txt");
-    let contents = fs::read_to_string(file_path).expect("Should have been able to read the file");
-    let lines = contents.split("\r\n");
+    let parser = InputParser::new("src/input/day1.txt");
+    let lines = parser.get_string_vec();
 
     let mut totals = Vec::new();
     let mut current: u32 = 0;
