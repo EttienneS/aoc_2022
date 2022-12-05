@@ -9,6 +9,10 @@ impl InputParser {
         }
     }
 
+    pub fn get_content(&self) -> &String {
+        &self.content
+    }
+
     pub fn get_string_vec(&self) -> Vec<&str> {
         self.content.split("\r\n").collect()
     }
