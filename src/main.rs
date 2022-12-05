@@ -1,4 +1,4 @@
 fn main() {
-    solutions::day4::part1();
-    solutions::day4::part2();
+    solutions::day5::part1();
+    solutions::day5::part2();
 }
