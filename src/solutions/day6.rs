@@ -1,6 +1,6 @@
 use std::collections::{HashSet, VecDeque};
 
-// https://adventofcode.com/2022/day/5
+// https://adventofcode.com/2022/day/6
 use crate::helpers::input_parser::InputParser;
 
 pub fn part1() {
