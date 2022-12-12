@@ -8,6 +8,7 @@ pub fn part1() {
 
     println!("Day X Part 1 Solution: {:?}", 0);
 }
+
 pub fn part2() {
     let parser = InputParser::new(INPUTFILE);
 

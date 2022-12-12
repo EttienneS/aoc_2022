@@ -13,6 +13,9 @@ fn main() {
     // solutions::day6::part2();
     // solutions::day7::part1();
     // solutions::day7::part2();
-    solutions::day8::part1();
-    solutions::day8::part2();
+    // solutions::day8::part1();
+    // solutions::day8::part2();
+    // solutions::day9::part1();
+    // solutions::day9::part2();
+    solutions::day10::solution();
 }

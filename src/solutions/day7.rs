@@ -1,5 +1,3 @@
-use std::f64::MAX_EXP;
-
 use indextree::{Arena, NodeId};
 
 // https://adventofcode.com/2022/day/7
