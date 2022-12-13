@@ -99,6 +99,29 @@ I have a weird "off-by-one" issue with the output but that is easy enough to eye
 
 Flagging this one to revisit after this is all done to fix that.
 
+```md
+Part 1 solution: 14760
+Part 2 solution: EFGERURE
+```
+
+### Day 11
+
+This is an interesting one, I may use this as a training challenge in the future. The common denominator modulo for part 2 tripped me up for a bit and I had to go look for hints, its kind of something you either know or don't. But with that it becomes pretty easy.
+
+I also split the items from the monkeys as I had trouble changing the owned items while also looping over the monkeys because of rust, so this may be something that I could have done better.
+
+I did not bother to parse the input for this one as its small but that also means that it is not a common solution that can be run with a runner for anybody, so I am also flagging this one to revisit in the future to write a proper parser for input and monkeys.
+
+```md
+Part 1 solution: 61503
+Part 2 solution: 14081365540
+
+test day11_part1 ... bench: 45,656 ns/iter (+/- 8,883)
+test day11_part2 ... bench: 26,163,570 ns/iter (+/- 4,317,994)
+```
+
+From here I also started using bench to grab the timings of the solutions.
+
 ### Day X
 
 ```md

@@ -1,6 +1,5 @@
 // https://adventofcode.com/2022/day/X
 use crate::helpers::input_parser::InputParser;
-use itertools::Itertools;
 
 const INPUTFILE: &str = "src/input/day10.txt";
 
@@ -61,7 +60,7 @@ fn get_registers() -> Vec<i32> {
             println!();
         }
     }
-    
+
     println!();
     registers
 }
